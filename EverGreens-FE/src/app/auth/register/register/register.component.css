@@ -8,7 +8,6 @@
   .container{
     width: 100vw;
     height: 100vh;
-    
     justify-content: space-around;
     
 } 
@@ -73,4 +72,41 @@ label{
 h2{
     margin-bottom: 5px;
     color: #15CF3E;
+}
+
+@media screen and (max-width:768px){
+
+    form{
+        margin-bottom: 40vh;
+        width: 100%;
+
+    }
+    input{
+        padding: 10px;
+        border-radius: 10px;
+        width: 100%;  
+    }
+    h2{
+        margin-bottom: 5px;
+        color: #15CF3E;
+        text-align: center;
+    }
+
+    button{
+        background-color: #15CF3E;
+        border-radius: 50px;
+        margin: 20px auto;
+        padding: 5px 15px;
+        border: none;
+        color: aliceblue;
+        width: 30%;
+        align-items: center;
+
+      
+   
+    }
+
+
+
+    
 }
